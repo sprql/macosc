@@ -2,7 +2,17 @@
 
 macOS provisioning
 
-Inspired by:
+## Installation
+
+    ./macosc -init
+
+## Usage
+
+Update `provisioning.yml` and run:
+
+    ./macosc
+
+## Inspired by
 
 * https://github.com/osxc/starter
 * https://github.com/siyelo/laptop
