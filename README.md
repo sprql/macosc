@@ -4,7 +4,17 @@ macOS provisioning
 
 ## Installation
 
-    ./macosc -init
+* Install Xcode Command Line Tools:
+
+    xcode-select --install
+
+* Install [Homebrew](https://brew.sh):
+    
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    
+* Install [Ansible](https://www.ansible.com):
+
+    brew install ansible
 
 ## Usage
 
