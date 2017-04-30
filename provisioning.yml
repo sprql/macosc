@@ -13,8 +13,28 @@
       - sublime-text-dev
 
     brew_packages:
+      - ansible
+      - duti
+      - elixir
+      - emacs
+      - erlang
+      - ffmpeg
       - fish
+      - fzf
       - git
+      - imagemagick
+      - libmagic
+      - mc
+      - node
+      - openssl
+      - optipng
+      - postgresql
+      - python
+      - redis
+      - rsync
+      - ruby-install
+      - vim
+      - wget
 
   tasks:
     - name: Install required Homebrew Taps
