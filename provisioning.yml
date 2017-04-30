@@ -48,3 +48,5 @@
     - name: Install applications with Homebrew Cask
       shell: brew cask install {{ item }}
       with_items: "{{ brew_casks }}"
+
+    - include: macos_defaults.yml
