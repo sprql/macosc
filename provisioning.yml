@@ -50,3 +50,5 @@
       with_items: "{{ brew_casks }}"
 
     - include: tasks/macos_defaults.yml
+
+    - include: tasks/shell.yml

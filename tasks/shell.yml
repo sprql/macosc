@@ -1,0 +1,7 @@
+- name: Add fish to shells
+  lineinfile: path=/etc/shells line='/usr/local/bin/fish'
+  become: true
+
+- name: Set shell
+  command: chsh -s /usr/local/bin/fish {{ lookup('env','USER') }}
+  become: true
