@@ -49,4 +49,4 @@
       shell: brew cask install {{ item }}
       with_items: "{{ brew_casks }}"
 
-    - include: macos_defaults.yml
+    - include: tasks/macos_defaults.yml
